@@ -87,10 +87,16 @@ footer li { padding: .5em; }
 @media screen and (min-width: 961px) {
     #articles {
         display: flex;
-        text-align: center;
+        justify-content: space-around;
     }
-    #articles article, footer ul {
-        width: 30%;
+    footer{ 
+        display: flex;
+        justify-content: space-between;
+    }
+    #articles article, footer ul  {
+        margin: 1em;
+    }
+    footer ul {
         text-align: left;
     }
     form h2 {
